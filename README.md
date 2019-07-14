@@ -1,21 +1,22 @@
-# nrw19-ue
+# nrw19-ue-gruene
 
 Tool zum Unterstützungserklärungen ausfüllen
 
-Demo: https://ppoe.github.io/nrw19-ue/
+Demo: https://ppoe.github.io/nrw19-ue-gruene/
 
 ### Project structure
 
 Vue.js + Bootstrap + pdf-lib
 
 /src/components
- - App.vue, main.js - Gerüst, enthält auch die config für Piwik
+ - App.vue, main.js - Gerüst
  - Header.vue, Footer.vue
+ - Form.vue - Formularclickstrecke
  - PDFService.vue - UI + Logic zum modifzieren des PDFs mit den ausgefüllten Daten
- - Unterstuetzungserklaerung_NR.pdf - Vorlage
+ - Unterstuetzungserklaerung_NR_mit_Anleitung.pdf - Vorlage
 
 vue.config.js
- - publicPath: Setzt den basepath auf / (für Dev) bzw. /nrw19-ue/ (für Prod). Muss ggf. angepasst werden, wenn woanders als gh-pages deployed werden soll
+ - publicPath: Setzt den basepath auf / (für Dev) bzw. /nrw19-ue-gruene/ (für Prod). Muss ggf. angepasst werden, wenn woanders als gh-pages deployed werden soll
  - transpileDependencies: By default babel-loader ignores all files inside node_modules. If you want to explicitly transpile a dependency with Babel, you can list it in this option (polyfills für pdf-lib)
  - chainWebpack: uint8array-loader für *.pdf
  
@@ -24,7 +25,6 @@ vue.config.js
 
 ### Todos
 
- - Piwik anbindung konfigurieren + fertig programmieren
  - Ggf. das Formular bisschen inteligenter machen (z.B. Bundesland aus PLZ)
  - Unit-Tests
 

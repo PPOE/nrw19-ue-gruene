@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <my-header/>
-    <pdf-service/>
+    <my-form/>
     <my-footer/>
   </div>
 </template>
@@ -9,14 +9,14 @@
 <script>
 import header from '@/components/Header.vue';
 import footer from '@/components/Footer.vue';
-import pdfservice from '@/components/PDFService.vue';
+import form from '@/components/Form.vue';
 
 export default {
   name: 'App',
   components: {
     'my-header': header,
     'my-footer': footer,
-    'pdf-service': pdfservice,
+    'my-form': form,
   },
 };
 </script>

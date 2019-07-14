@@ -1,7 +1,7 @@
 module.exports = {
 
   publicPath: process.env.NODE_ENV === 'production'
-    ? '/nrw19-ue/'
+    ? '/nrw19-ue-gruene/'
     : '/',
 
   transpileDependencies: [
