@@ -8,9 +8,9 @@
             <img src="@/assets/vote.png" alt="Grüne - 10, Maria Chlastak" title="Grüne - 10, Maria Chlastak" />
         </div>
 
-        <h2>Unterstützungs&shy;erklärung für die Nationalrats&shy;wahl am 29. September</h2>
+        <h2>Unterstützungserklärung für die Nationalrats&shy;wahl am 29. September</h2>
         <p class="lead">Hier kannst du eine vorausgefüllte Unterstützungs&shy;
-        erklärung downloaden um den Wahlantritt der Piratenpartei zu ermöglichen</p>
+        erklärung downloaden, um den Wahlantritt der Piratenpartei zu ermöglichen</p>
     </div>
 
 </div>
