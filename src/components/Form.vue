@@ -33,9 +33,13 @@
             <div class="card-body">
                 <h5 class="card-title">Ahoi!</h5>
                 <p class="card-text text-justify">Wir Piraten haben sowohl unsere Kandiatin <a href="https://piratenpartei.at/" alt="mehr über Maria" target="_blank">Maria Chlastak</a> (auf Platz 10 der Bundesliste) als auch den gemeinsamen Antritt mit den Grünen einstimmig beschlossen. Wir brauchen jetzt deine Hilfe, damit wir ins Parlement kommen!</p>
+<<<<<<< HEAD
                 <p class="text-center card-text">
                 <iframe width="640" height="480" src="https://www.youtube-nocookie.com/embed/mnXQdMRi63E?start=64&amp;autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media;"></iframe>
                 </p>
+=======
+                <p class="text-center card-text"><img id="potc" class="card-image" src="@/assets/potc.gif" /></p>
+>>>>>>> 4d2c950f45e6fae0559431a9a492dbdc20d1d64e
             </div>
             <div class="card-footer bg-transparent">
                 <button v-on:click="page = 2" id="btn-next" type="button" class="btn btn-success">Jetzt für die Grünen unterschreiben</button>
