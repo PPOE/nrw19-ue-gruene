@@ -120,7 +120,7 @@
                 <div class="col-md-9">
                     <div class="card-body">
                         <h5 class="card-title">Dieser Service ist in deinem Land leider nicht verfügbar</h5>
-                        <p class="card-text">Die Demokratie in Österreich ist noch nicht im digitalen Zeitalter angekommen. Du musst nun dieses vorausgefüllte PDF ausdrucken, auf Deinem Gemeindeamt persönlich innerhalb der Öffnungszeiten erscheinen und Dir Deine Unterschrift notariell beglaubigen lassen. Warum?</p>
+                        <p class="card-text">Die Demokratie in Österreich ist noch nicht im digitalen Zeitalter angekommen. Du musst nun dieses vorausgefüllte PDF ausdrucken, in Deinem Gemeindeamt persönlich innerhalb der Öffnungszeiten erscheinen und Dir Deine Unterschrift notariell beglaubigen lassen. Warum?</p>
                         <p class="card-text">Die Handysignatur (oder die Bürgerkarte) wird vom Gesetzgeber bei Wahlantritten nicht akzeptiert. Wir wollen das ändern! Das geht nur mit Deiner Vorzugsstimme für Maria Chlastak am 29. September!</p>
                     </div>
                 </div>
