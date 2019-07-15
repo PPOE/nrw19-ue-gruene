@@ -2,7 +2,7 @@
 <div class="container">
 
     <div class="alert alert-danger" role="alert" v-if="newsletterfail">
-        Die Newsletter Anmeldung ist leider fehgeschlagen, bitte klick hier: <a href="https://mitglieder.piratenpartei.at/newsletter/register.php" target="_blank">zum Newsletter anmelden</a>
+        Die Anmeldung ist leider fehgeschlagen, bitte klick hier: <a href="https://mitglieder.piratenpartei.at/newsletter/register.php" target="_blank">zum Newsletter anmelden</a>
         <button type="button" class="close" data-dismiss="alert" aria-label="Close" v-on:click="newsletterfail=0">
             <span aria-hidden="true">&times;</span>
         </button>
@@ -18,21 +18,21 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">Die Piratenpartei tritt gemeinsam mit den Grünen zur Nationalratswahl an.</h5>
-                        <p class="card-text">Unsere Kandiatin, <a href="https://piratenpartei.at/" alt="mehr über Maria" target="_blank">Maria Chlastak</a> kandidiert auf Platz 10 der Bundesliste und benötigt deine Vorzugstimme.</p>
-                        <p class="card-text">Für unseren gemeinsamen Antritt musst du eine Unterstützungserklärung für "Die Grünen – Die Grüne Alternative (GRÜNE)" unterschreiben.</p>
+                        <p class="card-text">Unsere Kandiatin Maria Chlastak kandidiert auf Platz 10 der Grünen Bundesliste für den Nationalrat und benötigt deine Vorzugstimme.</p>
+                        <p class="card-text">Damit wir zur Wahl antreten können, brauchen die Grünen genügend Unterstützungserklärungen. Jetzt unterschreiben. .</p>
                     </div>
                 </div>
             </div>
             <div class="card-footer bg-transparent">
                 <button v-on:click="page = 2" id="btn-next" type="button" class="btn btn-success">Jetzt für die Grünen unterschreiben</button>
-                <button v-on:click="page = 0" id="btn-stop" type="button" class="btn btn-light btn-sm">Ich möchte nicht für die Grünen unterschreiben</button>
+                <button v-on:click="page = 0" id="btn-stop" type="button" class="btn btn-light btn-sm">Ich möchte lieber nicht für die Grünen unterschreiben</button>
             </div>
         </div>
 
         <div v-if="page === 0">
             <div class="card-body">
                 <h5 class="card-title">Ahoi!</h5>
-                <p class="card-text text-justify">Wir Piraten haben sowohl unsere Kandiatin <a href="https://piratenpartei.at/" alt="mehr über Maria" target="_blank">Maria Chlastak</a> (auf Platz 10 der Bundesliste) als auch den gemeinsamen Antritt mit den Grünen einstimmig beschlossen. Wir brauchen jetzt deine Hilfe, damit wir ins Parlement kommen!</p>
+                <p class="card-text text-justify">Wir Piraten haben sowohl unsere Kandiatin <a href="https://piratenpartei.at/" alt="mehr über Maria" target="_blank">Maria Chlastak</a> (auf Platz 10 der Bundesliste) als auch den gemeinsamen Antritt mit den Grünen einstimmig beschlossen. Jetzt brauchen wir deine Hilfe, um ins Parlement zukommen!</p>
 
                 <p class="text-center card-text">
                 <iframe id="poc_video" width="640" height="480" src="https://www.youtube-nocookie.com/embed/mnXQdMRi63E?start=64&amp;autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media;"></iframe>
@@ -48,7 +48,7 @@
                 <h5 class="card-title"></h5>
                 <form>
                     <label for="fullname">Dein Name:</label>
-                    <input v-model="fullname" type="text" id="fullname" class="form-control mb-4" placeholder="Vorname Nachname">
+                    <input v-model="fullname" type="text" id="fullname" class="form-control mb-4" placeholder="Name Vorname">
 
                     <div>
                         <label for="birthdate">Dein Geburtsdatum:</label>
@@ -67,7 +67,7 @@
                         </div>
                     </div>
 
-                    <label for="street">Deine Meldeadresse:</label>
+                    <label for="street">Hauptwohnsitz:</label>
                     <input v-model="address" type="text" id="street" class="form-control mb-2" placeholder="Straße, Hausnummer">
 
                     <div class="row">
@@ -95,19 +95,19 @@
                     </div>
 
                     <div class="mt-4">
-                        <p class="small text-justify">Die Erzeugung der ausgefüllten Unterstützungserklärung findet vollständig auf deinem Computer statt, daher werden deine Daten niemals übers Internet übertragen.</p>
+                        <p class="small text-justify">Die Erzeugung der ausgefüllten Unterstützungserklärung findet vollständig auf deinem Computer statt, wir bekommen nur deine E-Mail-Adresse falls du unseren Newsletter bestellst.</p>
                     </div>
 
                     <input v-model="email" type="text" id="email" class="form-control" placeholder="E-Mail" />
                     <div class="custom-control custom-checkbox mt-4">
                         <input v-model="newsletter" type="checkbox" class="custom-control-input" id="newsletter" />
-                        <label class="custom-control-label" for="newsletter">Ich möchte zu wahlkampfzwecken per E-Mail kontaktierte werden</label>
+                        <label class="custom-control-label" for="newsletter">Ich will regelmäßig Infos von der Piratenpartei erhalten</label>
                     </div>
 
                 </form>
             </div>
             <div class="card-footer bg-transparent">
-                <button v-on:click="page = 3; subscribteNewsletter();" id="btn-next" type="button" class="btn btn-success">Sofort online unterschreiben</button>
+                <button v-on:click="page = 3; subscribteNewsletter();" id="btn-next" type="button" class="btn btn-success">Jetzt unterschreiben</button>
                 <button v-on:click="page -= 1" type="button" class="btn btn-light btn-sm">Zurück</button>
             </div>
         </div>
@@ -120,8 +120,8 @@
                 <div class="col-md-9">
                     <div class="card-body">
                         <h5 class="card-title">Dieser Service ist in deinem Land leider nicht verfügbar</h5>
-                        <p class="card-text">Die Demokratie in Österreich ist noch nicht im Zeitalter der Digitalisierung angekommen. Deshalb musst du deine Unterstützungserklärung leider ausdrucken und auf deinem Amt unterschreiben.</p>
-                        <p class="card-text">Handysignatur/Bürgerkarte wird vom Gesetzgeber nicht akzeptiert. Wir wollen das ändern, aber das geht nur mit einer Vorzugsstimme für Maria Chlastak!</p>
+                        <p class="card-text">Die Demokratie in Österreich ist noch nicht im digitalen Zeitalter angekommen. Du musst am Gemeindeamt persönlich innerhalb der Öffnungszeiten erscheinen und dir deine Unterschrift notariell beglaubigen lassen. Warum?</p>
+                        <p class="card-text">Die Handysignatur oder die Bürgerkarte wird vom Gesetzgeber nicht akzeptiert. Wir wollen das ändern! Das geht nur mit einer Vorzugsstimme für Maria Chlastak am 29. September!</p>
                     </div>
                 </div>
             </div>
@@ -137,11 +137,11 @@
                 <ol class="text-left">
                     <li>Lade das PDF herunter und druck es aus (Noch nicht unterschreiben!)</li>
                     <li>Gehe zu deinem Gemeindeamt/Magistrat wo dein Hauptwohnsitz ist
-                    (Lichtbildausweis nicht vergessen!)</li>
+                        (Lichtbildausweis nicht vergessen!)</li>
                     <li>Unterschreibe die Unterstützungserklärung vor dem/der Beamten
-                    (Die Beglaubigung & Bestätigung ist kostenlos, auf keinen Fall etwas bezahlen!)</li>
+                        (Die Beglaubigung & Bestätigung ist kostenlos, auf keinen Fall etwas bezahlen!)</li>
                     <li>Nimm die Unterstützungserklärung wieder mit und sende sie uns per Post
-                    (Die Grünen - Die Grüne Alternative Bundespartei, Würtzlerstraße 3/3, 1030 Wien)</li>
+                        (Die Grünen - Die Grüne Alternative Bundespartei, Würtzlerstraße 3/3, 1030 Wien)</li>
                 </ol>
                 <h5 class="card-title"> </h5>
                 <my-pdfservice
@@ -151,23 +151,22 @@
                     :city="city"
                     :region="region"
                     :birthdate="birthdate"
-                    />
+                />
                 <h5 class="card-title">Sei dabei</h5>
                 <ul class="text-left">
                     <li>Folge Maria Chlastak auf Social Media:
-                    <a href="https://www.instagram.com/maria_noc/" target="_blank">Instagram</a>&nbsp;
-                    <a href="https://www.facebook.com/mariachlastak" target="_blank">Facebook</a>&nbsp;
-                    <a href="https://twitter.com/maria_noc_" target="_blank">Twitter</a>
+                        <a href="https://www.instagram.com/maria_noc/" target="_blank">Instagram</a>&nbsp;
+                        <a href="https://www.facebook.com/mariachlastak" target="_blank">Facebook</a>&nbsp;
+                        <a href="https://twitter.com/maria_noc_" target="_blank">Twitter</a>
                     </li>
                     <li>Folge der Piratenpartei auf Social Media:
-                    <a href="https://www.instagram.com/piratenpartei_oesterreichs/" target="_blank">Instagram</a>&nbsp;
-                    <a href="https://www.facebook.com/PiratenparteiAT" target="_blank">Facebook</a>&nbsp;
-                    <a href="https://twitter.com/piratenparteiAT" target="_blank">Twitter</a>
+                        <a href="https://www.facebook.com/PiratenparteiAT" target="_blank">Facebook</a>&nbsp;
+                        <a href="https://twitter.com/piratenparteiAT" target="_blank">Twitter</a>
                     </li>
-                    <li>Bleib Informiert: <a href="https://mitglieder.piratenpartei.at/newsletter/register.php" target="_blank">Newsletter</a></li>
+                    <li>Bleib informiert: <a href="https://mitglieder.piratenpartei.at/newsletter/register.php" target="_blank">Newsletter</a></li>
                     <li>Hilf uns im Wahlkmapf: <a href="https://piratenpartei.at/mitmachen/" target="_blank">Mitmachen</a></li>
 
-                    <li>Wähle am 29. Septmber "GRÜN" und gib Deine Vorzugstimme den Piraten "10, Maria Chlastak"</li>
+                    <li>Wähle am 29. Septmber "GRÜN" und gib deine Vorzugstimme den Piraten "10. Maria Chlastak"</li>
                 </ul>
 
             </div>
