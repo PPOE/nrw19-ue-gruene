@@ -234,7 +234,7 @@ export default {
       if (this.newsletter) {
         const vm = this;
         const http = new XMLHttpRequest();
-        const url = 'https://ue.piratenpartei.at/wordpress/?page_id=5&na=s';
+        const url = 'https://wahlantritt.at/wordpress/?page_id=5&na=s';
         const params = `ne=${encodeURI(this.email)}&nlang=&nr=page`;
         http.open('POST', url, true);
 
