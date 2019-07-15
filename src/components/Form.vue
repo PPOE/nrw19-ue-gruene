@@ -72,7 +72,7 @@
 
                     <div class="row">
                         <div class="col-md-4 mb-2">
-                            <input v-model="zip" type="text" id="zip" class="form-control" placeholder="Postleizahl">
+                            <input v-model="zip" type="text" id="zip" class="form-control" placeholder="Postleitzahl">
                         </div>
                         <div class="col-md-4 mb-2">
                             <input v-model="city" type="text" id="city" class="form-control" placeholder="Ort">
@@ -95,7 +95,7 @@
                     </div>
 
                     <div class="mt-4">
-                        <p class="small text-justify">Die Erzeugung der ausgefüllten Unterstützungserklärung findet vollständig auf Deinem Computer statt, wir bekommen nur deine E-Mail-Adresse falls Du unseren Newsletter bestellst.</p>
+                        <p class="small text-justify">Die Erzeugung der ausgefüllten Unterstützungserklärung findet vollständig auf Deinem Computer statt, wir bekommen nur deine E-Mail-Adresse, falls Du unseren Newsletter bestellst.</p>
                     </div>
 
                     <input v-model="email" type="text" id="email" class="form-control" placeholder="E-Mail" />
