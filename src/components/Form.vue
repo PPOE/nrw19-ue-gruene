@@ -101,7 +101,7 @@
                     <input v-model="email" type="text" id="email" class="form-control" placeholder="E-Mail" />
                     <div class="custom-control custom-checkbox mt-4">
                         <input v-model="newsletter" type="checkbox" class="custom-control-input" id="newsletter" />
-                        <label class="custom-control-label" for="newsletter">Ich will regelmäßig Infos von Maria erhalten</label>
+                        <label class="custom-control-label" for="newsletter">Ich will regelmäßig Infos von Maria und den Piraten erhalten.</label>
                     </div>
 
                 </form>
