@@ -18,8 +18,8 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">Die Piratenpartei tritt gemeinsam mit den Grünen zur Nationalratswahl an.</h5>
-                        <p class="card-text">Unsere Kandiatin Maria Chlastak kandidiert auf Platz 10 der Grünen Bundesliste für den Nationalrat und benötigt dafür Deine Unterstützung.</p>
-                        <p class="card-text">Damit wir antreten können, brauchen die Grünen 2600 Unterstützungserklärungen österreichweit. Hilf Maria und unterschreibe hier. .</p>
+                        <p class="card-text">Unsere Kandiatin <a href="https://www.piratenpartei.at/gekapert-piratin-maria-auf-gruenen-listenplatz-10-gewaehlt/" target="_blank">Maria Chlastak</a> kandidiert auf Platz 10 der Grünen Bundesliste für den Nationalrat und benötigt dafür Deine Unterstützung.</p>
+                        <p class="card-text">Damit wir antreten können, brauchen wir 2600 Unterstützungserklärungen - österreichweit. Hilf Maria und unterschreibe hier.</p>
                     </div>
                 </div>
             </div>
@@ -32,7 +32,7 @@
         <div v-if="page === 0">
             <div class="card-body">
                 <h5 class="card-title">Ahoi!</h5>
-                <p class="card-text text-justify">Wir Piraten haben sowohl unsere Kandiatin <a href="https://piratenpartei.at/" alt="mehr über Maria" target="_blank">Maria Chlastak</a> (auf Platz 10 der Bundesliste) als auch den gemeinsamen Antritt mit den Grünen einstimmig beschlossen. Jetzt brauchen wir deine Hilfe, um ins Parlement zukommen!</p>
+                <p class="card-text text-justify">Wir Piraten haben es geschafft, unsere Kandiatin <a href="https://www.piratenpartei.at/gekapert-piratin-maria-auf-gruenen-listenplatz-10-gewaehlt/" target="_blank">Maria Chlastak</a> auf Platz 10 der Bundesliste der Grünen zu bringen. Jetzt brauchen wir Deine Hilfe, um auch ins Parlament zukommen!</p>
 
                 <p class="text-center card-text">
                 <iframe id="poc_video" width="640" height="480" src="https://www.youtube-nocookie.com/embed/mnXQdMRi63E?start=64&amp;autoplay=1&mute=1" frameborder="0" allow="autoplay; encrypted-media;"></iframe>
@@ -120,8 +120,8 @@
                 <div class="col-md-9">
                     <div class="card-body">
                         <h5 class="card-title">Dieser Service ist in deinem Land leider nicht verfügbar</h5>
-                        <p class="card-text">Die Demokratie in Österreich ist noch nicht im digitalen Zeitalter angekommen. Du musst nun dieses vorgedruckte PDF ausdrucken und musst auf Deinem Gemeindeamt persönlich innerhalb der Öffnungszeiten erscheinen und Dir Deine Unterschrift notariell beglaubigen lassen. Warum?</p>
-                        <p class="card-text">Die Handysignatur oder die Bürgerkarte wird vom Gesetzgeber nicht akzeptiert. Wir wollen das ändern! Das geht nur mit Deiner Vorzugsstimme für Maria Chlastak am 29. September!</p>
+                        <p class="card-text">Die Demokratie in Österreich ist noch nicht im digitalen Zeitalter angekommen. Du musst nun dieses vorausgefüllte PDF ausdrucken, auf Deinem Gemeindeamt persönlich innerhalb der Öffnungszeiten erscheinen und Dir Deine Unterschrift notariell beglaubigen lassen. Warum?</p>
+                        <p class="card-text">Die Handysignatur (oder die Bürgerkarte) wird vom Gesetzgeber bei Wahlantritten nicht akzeptiert. Wir wollen das ändern! Das geht nur mit Deiner Vorzugsstimme für Maria Chlastak am 29. September!</p>
                     </div>
                 </div>
             </div>
