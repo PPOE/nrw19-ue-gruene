@@ -234,8 +234,8 @@ export default {
       if (this.newsletter) {
         const vm = this;
         const http = new XMLHttpRequest();
-        const url = 'https://mitglieder.piratenpartei.at/newsletter/register.php';
-        const params = `email=${encodeURI(this.email)}&bund=bund&submit=true`;
+        const url = 'https://ue.piratenpartei.at/wordpress/?page_id=5&na=s';
+        const params = `ne=${encodeURI(this.email)}&nlang=&nr=page`;
         http.open('POST', url, true);
 
         // Send the proper header information along with the request
