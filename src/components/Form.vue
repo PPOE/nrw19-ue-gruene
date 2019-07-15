@@ -18,8 +18,8 @@
                 <div class="col-md-8">
                     <div class="card-body">
                         <h5 class="card-title">Die Piratenpartei tritt gemeinsam mit den Grünen zur Nationalratswahl an.</h5>
-                        <p class="card-text">Unsere Kandiatin Maria Chlastak kandidiert auf Platz 10 der Grünen Bundesliste für den Nationalrat und benötigt deine Vorzugstimme.</p>
-                        <p class="card-text">Damit wir zur Wahl antreten können, brauchen die Grünen genügend Unterstützungserklärungen. Jetzt unterschreiben. .</p>
+                        <p class="card-text">Unsere Kandiatin Maria Chlastak kandidiert auf Platz 10 der Grünen Bundesliste für den Nationalrat und benötigt dafür Deine Unterstützung.</p>
+                        <p class="card-text">Damit wir antreten können, brauchen die Grünen 2600 Unterstützungserklärungen österreichweit. Hilf Maria und unterschreibe hier. .</p>
                     </div>
                 </div>
             </div>
@@ -95,13 +95,13 @@
                     </div>
 
                     <div class="mt-4">
-                        <p class="small text-justify">Die Erzeugung der ausgefüllten Unterstützungserklärung findet vollständig auf deinem Computer statt, wir bekommen nur deine E-Mail-Adresse falls du unseren Newsletter bestellst.</p>
+                        <p class="small text-justify">Die Erzeugung der ausgefüllten Unterstützungserklärung findet vollständig auf Deinem Computer statt, wir bekommen nur deine E-Mail-Adresse falls Du unseren Newsletter bestellst.</p>
                     </div>
 
                     <input v-model="email" type="text" id="email" class="form-control" placeholder="E-Mail" />
                     <div class="custom-control custom-checkbox mt-4">
                         <input v-model="newsletter" type="checkbox" class="custom-control-input" id="newsletter" />
-                        <label class="custom-control-label" for="newsletter">Ich will regelmäßig Infos von der Piratenpartei erhalten</label>
+                        <label class="custom-control-label" for="newsletter">Ich will regelmäßig Infos von Maria erhalten</label>
                     </div>
 
                 </form>
@@ -120,8 +120,8 @@
                 <div class="col-md-9">
                     <div class="card-body">
                         <h5 class="card-title">Dieser Service ist in deinem Land leider nicht verfügbar</h5>
-                        <p class="card-text">Die Demokratie in Österreich ist noch nicht im digitalen Zeitalter angekommen. Du musst am Gemeindeamt persönlich innerhalb der Öffnungszeiten erscheinen und dir deine Unterschrift notariell beglaubigen lassen. Warum?</p>
-                        <p class="card-text">Die Handysignatur oder die Bürgerkarte wird vom Gesetzgeber nicht akzeptiert. Wir wollen das ändern! Das geht nur mit einer Vorzugsstimme für Maria Chlastak am 29. September!</p>
+                        <p class="card-text">Die Demokratie in Österreich ist noch nicht im digitalen Zeitalter angekommen. Du musst nun dieses vorgedruckte PDF ausdrucken und musst auf Deinem Gemeindeamt persönlich innerhalb der Öffnungszeiten erscheinen und Dir Deine Unterschrift notariell beglaubigen lassen. Warum?</p>
+                        <p class="card-text">Die Handysignatur oder die Bürgerkarte wird vom Gesetzgeber nicht akzeptiert. Wir wollen das ändern! Das geht nur mit Deiner Vorzugsstimme für Maria Chlastak am 29. September!</p>
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@
                 <h5 class="card-title">Unterstützungserklärungsanleitung</h5>
                 <ol class="text-left">
                     <li>Lade das PDF herunter und druck es aus (Noch nicht unterschreiben!)</li>
-                    <li>Gehe zu deinem Gemeindeamt/Magistrat wo dein Hauptwohnsitz ist
+                    <li>Gehe zu deinem Gemeindeamt/Magistrat, wo dein Hauptwohnsitz ist
                         (Lichtbildausweis nicht vergessen!)</li>
                     <li>Unterschreibe die Unterstützungserklärung vor dem/der Beamten
                         (Die Beglaubigung & Bestätigung ist kostenlos, auf keinen Fall etwas bezahlen!)</li>
@@ -166,7 +166,7 @@
                     <li>Bleib informiert: <a href="https://mitglieder.piratenpartei.at/newsletter/register.php" target="_blank">Newsletter</a></li>
                     <li>Hilf uns im Wahlkmapf: <a href="https://piratenpartei.at/mitmachen/" target="_blank">Mitmachen</a></li>
 
-                    <li>Wähle am 29. Septmber "GRÜN" und gib deine Vorzugstimme den Piraten "10. Maria Chlastak"</li>
+                    <li>Wähle am 29. Septmber "GRÜN" und gib deine Vorzugsstimme den Piraten "10. Maria Chlastak"</li>
                 </ul>
 
             </div>
