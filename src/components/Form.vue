@@ -164,7 +164,7 @@
                         <a href="https://twitter.com/piratenparteiAT" target="_blank">Twitter</a>
                     </li>
                     <li>Bleib informiert: <a href="https://mitglieder.piratenpartei.at/newsletter/register.php" target="_blank">Newsletter</a></li>
-                    <li>Hilf uns im Wahlkmapf: <a href="https://piratenpartei.at/mitmachen/" target="_blank">Mitmachen</a></li>
+                    <li>Hilf uns im Wahlkampf: <a href="https://piratenpartei.at/mitmachen/" target="_blank">Mitmachen</a></li>
 
                     <li>Wähle am 29. Septmber "GRÜN" und gib deine Vorzugsstimme den Piraten "10. Maria Chlastak"</li>
                 </ul>
