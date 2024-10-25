@@ -19,7 +19,7 @@
     "popper.js": "^1.15.0",
     "text-encoding": "^0.7.0",
     "uint8array-loader": "^1.0.2",
-    "vue": "^2.6.10",
+    "vue": "^3.0.0",
     "vue-matomo": "^3.9.1-2",
     "vuejs-datepicker": "^1.5.4"
   },
